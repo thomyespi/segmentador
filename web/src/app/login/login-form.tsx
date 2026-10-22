@@ -9,8 +9,8 @@ export function LoginForm() {
     <form action={action} className="card flex w-full max-w-sm flex-col gap-3">
       <h1 className="text-lg font-semibold">Gen12 · Campañas de WhatsApp</h1>
       <label>
-        <span className="label">Email</span>
-        <input className="input w-full" type="email" name="email" autoComplete="email" required />
+        <span className="label">Usuario</span>
+        <input className="input w-full" name="email" autoComplete="username" autoCapitalize="none" required />
       </label>
       <label>
         <span className="label">Contraseña</span>
