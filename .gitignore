@@ -1,0 +1,13 @@
+# Datos personales de contactos (base segmentada, exports, logs del script): nunca al repo.
+/datos/
+
+# Secretos
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Local
+node_modules/
+.DS_Store
+.claude/settings.local.json
